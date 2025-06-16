@@ -1,0 +1,33 @@
+# Unreal Engine - Don't track these folders
+Binaries/
+Build/
+Intermediate/
+Saved/
+DerivedDataCache/
+.vs/
+.vscode/
+
+# Unreal Engine files
+*.tmp
+*.log
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional: Uncomment if you don't want to track starter content
+# Content/StarterContent/
+
+# Cache and temp files
+*.cache
+*.backup
+*.bak
+
+# Plugin binaries
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
